@@ -1,0 +1,15 @@
+table, th, td {
+	color: #474748;
+	text-align: center;
+	//width: 50%;
+	margin-left: 6%;
+	margin-right: 6%;
+	border: 1px solid #91A294;;
+	border-collapse: collapse;
+}
+
+td, th{
+	
+	height:30px;
+	
+}

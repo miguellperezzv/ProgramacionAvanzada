@@ -1,0 +1,33 @@
+<html>
+
+<head>
+	<title>Reportes</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<link rel="stylesheet" href="">
+	<link rel="icon" href="../imagenes/favicon.ico">
+</head>
+<body>
+<p>Seleccione el grafico que desea ver y pulse enviar</p>
+	<form action="/Proyecto/VerGrafico" method="get">
+		<select name="SeleccionCuentas">
+		Seleccione el grafico a visualizar y haga click en el boton enviar 
+			<!-- <option value="0" >Gastos de los ultimos 12 meses -->
+			<option value="1" selected>Numero de transacciones por cuenta
+			<option value="2">Cantidad de Dinero por Cuenta 
+		</select>  
+		
+		<input type="submit" class="btn btn-info" value="Enviar">
+
+	</form>
+	<input type='button'  class="btn btn-secondary" value='Vofwlver' onClick="location.href='/Proyecto/index.jsp'">
+	<script type="text/javascript">
+var ancho = parseInt(screen.width);
+document.getElementById("anchoH").innerHTML = ancho
+
+var alto= parseInt(screen.height);
+document.getElementById("altoH").innerHTML = alto
+
+</script>
+</body>
+</html>

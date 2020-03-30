@@ -1,0 +1,46 @@
+table{
+	
+	text-align: center;
+	
+}
+form{
+	text-align: center;
+}
+body {
+	background-color: #FCFBFB;
+	color: #474748;
+	text-align: center;
+	border: 6px solid #BADA55;;
+	border-radius: 80px;
+	margin-left: 20%;
+	margin-right: 20%;
+	padding-bottom: 50px;
+	padding-top: 50px;
+	font: 18px sans-serif;
+}
+
+button{
+	margin-left:25px;
+}
+
+h1 {
+	color: #474748;
+	text-align: center;
+	font: 35px sans-serif;
+}
+
+p {
+	margin-left: 6%;
+	margin-right: 6%;
+	color: #474748;
+	text-align: left;
+	font: 18px sans-serif;
+	
+}
+
+
+caption{
+	color: #474748;
+	text-align: center;
+	font: 30px sans-serif;
+}

@@ -1,0 +1,39 @@
+table, th, td {
+	color: #474748;
+	text-align: center;
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+	border: 1px solid #91A294;;
+	border-collapse: collapse;
+}
+
+td, th{
+	
+	height:30px;
+	
+}
+
+input:focus, select:focus {
+	border: 1px solid #1668C4;
+}
+
+table {
+	border: 1px solid #000;
+	border-collapse: collapse;
+	width: 60%;
+}
+
+table td{
+	border: 1px solid #0A0000;
+	padding: 20px;
+}
+
+table tr:hover {
+	background: #A7A5A5;
+}
+
+table td:hover {
+	background: #060606;
+	color: #FFFFFF;
+}

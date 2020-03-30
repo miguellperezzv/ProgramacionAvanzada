@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Historial</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<link rel="stylesheet" href="/Proyecto/CSS/BasePaginaCSS.css">
+<link rel="icon" href="../imagenes/favicon.ico">
+</head>
+<body>
+
+Decida como ordenar los datos de sus transacciones:
+<form action="/Proyecto/MostrarTx" method="get">
+
+<br>
+Fecha:  <select name="Fecha">
+		<option value="Ultimo mes">Ultimo mes</option>
+		<option value="Hace 6 meses">Hace 6 meses</option>
+		<option value="Hace 12 horas">Hace 12 horas</option>
+		<option value="Todas las transacciones">Todas las transacciones</option>
+		</select>
+Ordenar por:  <select name="Ordenar">
+		<option value="Fecha">Fecha</option>
+		<option value="Descripcion">Descripcion</option>
+		<option value="Categorias">Categorias</option>
+		<option value="Cuenta">Cuenta</option>
+		<option value="Valor">Valor</option>
+		<option value="Nombres">Nombres</option>
+		</select><br><br><br>
+		
+		<input type=submit  class="btn btn-info" value="Solicitar transacciones">
+	
+</form>
+<input type="button" class="btn btn-secondary" value="Volver"
+OnClick="location.href= '/Proyecto/index.jsp'">
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>

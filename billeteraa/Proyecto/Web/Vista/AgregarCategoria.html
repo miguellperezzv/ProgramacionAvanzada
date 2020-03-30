@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Agregar categoria</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<link rel="stylesheet" href="/Proyecto/CSS/BasePaginaCSS.css">
+<link rel="stylesheet" href="/Proyecto/CSS/PrincipalCSS.css">
+<link rel="icon" href="../imagenes/favicon.ico">
+</head>
+<body>
+
+<form action="/Proyecto/AgregarCategoria" method="get">
+Ingrese el nombre de la categoria a agregar: <input type="text" name="categoria">
+
+<input type="submit" class="btn btn-success" value="Crear">
+</form>
+<p align="center">*Si se ingresa un nombre de una categoria existente esta se eliminara*</p>
+<input type="button" class="btn btn-secondary" value="Volver"
+OnClick="location.href= '/Proyecto/index.jsp'">
+</body>
+</html>
