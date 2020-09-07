@@ -1,0 +1,36 @@
+
+
+body{
+	background-color:#FCFBFB;
+	color:#474748;
+	text-align:center;
+	border: 6px solid #BADA55;;
+	border-radius: 80px;
+	margin-left:20%; 
+    margin-right:20%;
+    padding-bottom: 50px;
+    padding-top:50px;
+   
+
+}
+
+h1{
+	color:#474748;
+	text-align:center;
+}
+
+p{
+	color:#474748;
+	text-align:center;
+
+}
+table#tablaCuentas{
+
+	color:#474748;
+	text-align:center;
+	width:60%; 
+    margin-left:20%; 
+    margin-right:20%;
+	
+}
+

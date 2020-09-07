@@ -1,0 +1,61 @@
+<html>
+
+<title>Reportes</title>
+<link rel="stylesheet" href="BasePaginaCSS.css">
+<link rel="stylesheet" href="PrincipalCSS.css">
+	<title>Gestor financiero</title>
+	
+	<head>
+	</head>
+	
+	<body>
+	
+		<h1 >Bienvenido a su gestor financiero</h1>
+		<p >Seleccione una opcion para continuar</p>
+		<div >
+			<input type="button" value="Nuevo ingreso" OnClick="location.href= 'Ingreso.html'">
+			<input type="button" value="Nuevo retiro" OnClick="location.href= 'Egreso.html'">
+		</div>
+		
+		<div >
+			<input type="button" value="Agregar/eliminar cuentas" OnClick="location.href= 'AgregarCuenta.html'">
+			<input type="button" value="Agregar/eliminar categoria" OnClick="location.href= 'AgregarCategoria.html'">
+		</div>
+		
+		<div >
+			<input type="button" value="Mis transacciones" OnClick="location.href= 'MostrarTx.html'">
+			<input type="button" value="Reportes" OnClick="location.href= 'Reportes.html'">
+		</div>
+		
+		<br>
+		<br>
+	
+		<p><b>Resumen de cuentas registradas</b></p>
+		
+		<br>
+		
+		<table border="1" cellspacing="0" cellpadding="0" id ="tablaCuentas">
+			<tr>
+				<th>Cuenta</th>
+				<th>Saldo</th>
+			</tr>
+			<tr>
+				<td>Ejemplo 0</td>
+				<td>Saldo 1</td>
+			</tr>
+			
+				<tr>
+				<td>Ejemplo 2</td>
+				<td>Saldo 2</td>
+			</tr>
+			
+				<tr>
+				<td>Ejemplo 3</td>
+				<td>Saldo 3</td>
+			</tr>
+			
+		</table>
+	
+	</body>
+</html>
+

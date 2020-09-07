@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+<head>
+<script language="JavaScript" src="\Users\personal\Music\Web\FUNCIONES.js"></script>
+</head>
+<script>
+aCategoria=new Array()
+aCategoria[0]="Uno"
+aCategoria[1]="Dos"
+//var db = window.openDatabase('')
+
+function LlenarListaCat(){
+tabla=document.getElementById('tabla')
+
+tabla.innerHTML+='<option>'+valor+'</option></td>'
+
+
+
+}
+
+
+
+function enviar(){
+	abrirDB()
+	
+/*
+	sentencia=""
+	titulo=document.getElementById("titulo").value
+	valor=document.getElementById('valor').value
+	descripcion =document.getElementById('descr').value
+	combo = document.getElementById("Categoria");
+	cat = combo.options[combo.selectedIndex].text;
+	combo2 = document.getElementById("Cuenta");
+	cuen = combo2.options[combo.selectedIndex].text;
+	
+	sentencia=titulo+", "+valor+", "+descripcion+", "+cat+", "+cuen
+	alert(sentencia)
+	*/
+}
+</script>
+<html>
+    <head>
+        <title>Nuevo Ingreso</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    
+    <h4>Nuevo Ingreso</h4>
+        <table border=1px solid black id="tabla">
+            <tr>
+                <td border=1px solid black>Titulo </td> 
+                 <td><input type="text" id="titulo"></td>
+            <tr>
+                <td>Valor </td>
+                <td><input type="number" min="0" step='10000' id="valor"> </td>
+            <tr>    
+                <td>Descripcion </td>
+                <td><input type="text" id='descr'> </td>
+            <tr>    
+                <td>Categoria </td>
+                <td><select name ="Categoria" id="Categoria" onload='LlenarListaCat()'> 
+				
+				<option> Uno</option>
+				<option> Dos</option>
+				
+				</td>
+            <tr>    
+                <td>Cuenta </td>
+                <td><select name ="Cuenta" id="Cuenta" >
+				
+				<option onload='LlenarListaCat(0)'> Cero</option>
+				<option> Uno</option>
+				<option> Dos</option>
+				</td>
+            <tr>
+               
+                
+                
+                
+                
+            </tr>
+        </table>
+		<br><br>
+		<input type="button" value='Enviar' onclick='enviar()'>
+      
+    
+</html>

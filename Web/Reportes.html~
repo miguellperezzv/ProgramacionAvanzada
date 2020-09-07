@@ -1,0 +1,15 @@
+<html>	
+<title>Reportes</title>
+<link rel="stylesheet" href="BasePaginaCSS.css">
+
+	<head>
+	</head>
+	<body>
+		Seleccione un grafico:
+		<select name="SeleccionCuentas"> 
+			<option value="0" selected>Grafico 1
+			<option value="1">Grafico 2
+			<option value="2">Grafico 3
+		</select> 
+	</body>
+</html>
